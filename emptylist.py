@@ -27,4 +27,11 @@ l2 = list(filter(None,test_list))
 while [] in test_list:
     test_list.remove([])
 
-print(test_list)
+# print(test_list)
+
+# print(help(map))
+
+x = list(map(str, test_list))
+y="".join(x)
+y=list(map(int,y))
+# print(y)
