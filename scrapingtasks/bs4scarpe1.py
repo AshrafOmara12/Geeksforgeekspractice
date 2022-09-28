@@ -9,7 +9,7 @@ file = bs.BeautifulSoup(url_link.text,'lxml')
 # print(f
 find_table = file.find("figure", {"class": "table"})
 
-Description = []
+description = []
 functions = []
 links = []
 
